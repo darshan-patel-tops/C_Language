@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num = 65,input;
+    int num = 0,input;
     int i,j;
 
     printf("Enter Number Of Rows:");

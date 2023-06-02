@@ -21,10 +21,14 @@ int main()
             sum_odd += arr[i];
         }
     }
-      printf("Total Even Numbers Are: %d\n", total_even);
+      
+	  printf("Total Even Numbers Are: %d\n", total_even);
       printf("Sum Of Even Numbers Is: %d\n", sum_even);
       printf("Total Odd Numbers Are: %d\n", total_odd);
       printf("Sum Of Odd Numbers Is: %d\n", sum_odd);
+      
+      
+      
     return 0;
     
 }

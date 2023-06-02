@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdio.h>
 
 void main ()
@@ -66,32 +65,4 @@ void main ()
   {
             printf("%d\n", num2[i]);
   }
-
-=======
-#include <stdio.h>
-void main (){
-   int num[20];
-   int i, j, a, n;
-   printf("enter number of elements in an array:");
-   scanf("%d", &n);
-   printf("Enter the elements: \n");
-   for (i = 0; i < n; ++i)
-   {
-      scanf("%d", &num[i]);
-   }
-
-   for (i = 0; i < n; ++i){
-      for (j = i + 1; j < n; ++j){
-         if (num[i] > num[j]){
-            a = num[i];
-            num[i] = num[j];
-            num[j] = a;
-         }
-      }
-   }
-   printf("The numbers in ascending order is:");
-   for (i = n; i > 0; --i){
-      printf("\n %d", num[i]);
-   }
->>>>>>> 46786bdec42832e1348a5b11c4aeb97046a63607
-}
+};
